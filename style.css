@@ -1,9 +1,11 @@
 html, body {  
-    margin: 60;
+    margin: 0;
     text-align: center;
 
 }
 #imagem_fundo {
+    
+    background: url(fundo.jpg);
     width: 100%;
     text-align: center;
     background-size: cover;
