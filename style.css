@@ -1,8 +1,5 @@
 html, body {  
     margin: 0;
-
-    
-
 }
 #imagem_fundo {
     background: url("fundo.jpg");
@@ -15,6 +12,8 @@ header{
     color: rgb(219, 198, 208);
     height: 60px;
     width: 100%;
+    position: fixed;
+    margin-top: -28px;
     
 }
 
@@ -74,15 +73,17 @@ li:hover {
 }
 .colunaquatro {
     float: left;
-    padding: 0 5%;
+    padding: 44 5%;
     position: relative;
-    width: 10%;
+    width: 23%;
 }
 #ods {
-    width: 200px;;
-    text-align: center;
-    margin-left: 100px;
+    width: 25%;
+    margin-left: 350px;   
+}
 
+#odsdois {
+    margin-top: 361px;   ;
 }
 
 #sobre_mim {
@@ -95,5 +96,9 @@ li:hover {
 footer {
     background-color: rgb(156, 156, 226);
     float: left;
-    text-align: center;
+    text-align:center;
 }
+
+
+
+
